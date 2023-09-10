@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products Page</title>
+    <!-- -----BOOTSTRAP------ -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/products.css" />
+
+    <!-- -----BOOTSTRAP ENDS------ -->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="upper-container">
+        <div class="anchors d-flex">
+          <a href="#">Home</a><span> / </span><a href="#">Clothing</a
+          ><span> / </span><a href="#">Shirts</a><span> / </span
+          ><a href="#">Casual Shirts For Men</a>
+        </div>
+        <div class="heading-container">
+          <span class="heading fw-bold">Casual Shirts For Men</span> <span>- 83457 items</span>
+        </div>
+      </div>
+      <div class="below-container row">
+        <div class="filter-side-container col-2">
+          <div class="filter-main">
+            <div class="brand-box p-3 border-filter">
+              <h6>Filter by Brand</h6>
+              <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="brand-roadster"
+                  />
+                  <label class="custom-control-label" for="brand-roadster"
+                    >Roadster <span> (2328)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="brand-highlander"
+                  />
+                  <label class="custom-control-label" for="brand-highlander"
+                    >HIGHLANDER <span> (2144)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="brand-indian-terrain"
+                  />
+                  <label class="custom-control-label" for="brand-indian-terrain"
+                    >Indian Terrain <span> (1790)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="brand-showoff"
+                  />
+                  <label class="custom-control-label" for="brand-showoff"
+                    >SHOWOFF <span> (1778)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="brand-allen-solly"
+                  />
+                  <label class="custom-control-label" for="brand-allen-solly"
+                    >Allen Solly <span> (1698)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="brand-us-polo-assn"
+                  />
+                  <label class="custom-control-label" for="brand-us-polo-assn"
+                    >U.S. Polo Assn. <span> (1606)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="brand-snitch"
+                  />
+                  <label class="custom-control-label" for="brand-snitch"
+                    >Snitch <span> (1508)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="brand-parx"
+                  />
+                  <label class="custom-control-label" for="brand-parx"
+                    >Parx <span> (1487)</span></label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="price-box p-3 border-filter">
+              <h6>Filter by Price</h6>
+              <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="price-range-1"
+                  />
+                  <label class="custom-control-label" for="price-range-1"
+                    >Rs. 188 to Rs. 12891 <span> (83024)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="price-range-2"
+                  />
+                  <label class="custom-control-label" for="price-range-2"
+                    >Rs. 12891 to Rs. 25594 <span> (115)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="price-range-3"
+                  />
+                  <label class="custom-control-label" for="price-range-3"
+                    >Rs. 25594 to Rs. 38297 <span> (7)</span></label
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="color-box p-3 border-filter">
+              <h6>Filter by Color</h6>
+              <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="color-blue"
+                  />
+                  <label class="custom-control-label" for="color-blue"
+                    >Blue <span> (15956)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="color-white"
+                  />
+                  <label class="custom-control-label" for="color-white"
+                    >White <span> (10567)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="color-navy-blue"
+                  />
+                  <label class="custom-control-label" for="color-navy-blue"
+                    >Navy Blue <span> (8408)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="color-green"
+                  />
+                  <label class="custom-control-label" for="color-green"
+                    >Green <span> (6750)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="color-black"
+                  />
+                  <label class="custom-control-label" for="color-black"
+                    >Black <span> (6247)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="color-grey"
+                  />
+                  <label class="custom-control-label" for="color-grey"
+                    >Grey <span> (4101)</span></label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="color-red"
+                  />
+                  <label class="custom-control-label" for="color-red"
+                    >Red <span> (3354)</span></label
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="discount-box p-3 border-filter">
+              <h6>Filter by Discount Range</h6>
+              <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="discount-10"
+                  />
+                  <label class="custom-control-label" for="discount-10"
+                    >10% and above</label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="discount-20"
+                  />
+                  <label class="custom-control-label" for="discount-20"
+                    >20% and above</label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="discount-30"
+                  />
+                  <label class="custom-control-label" for="discount-30"
+                    >30% and above</label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="discount-40"
+                  />
+                  <label class="custom-control-label" for="discount-40"
+                    >40% and above</label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="discount-50"
+                  />
+                  <label class="custom-control-label" for="discount-50"
+                    >50% and above</label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="discount-60"
+                  />
+                  <label class="custom-control-label" for="discount-60"
+                    >60% and above</label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="discount-70"
+                  />
+                  <label class="custom-control-label" for="discount-70"
+                    >70% and above</label
+                  >
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="discount-80"
+                  />
+                  <label class="custom-control-label" for="discount-80"
+                    >80% and above</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-side-container col-10">
+          <div class="products-side d-flex justify-content-evenly flex-wrap">
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8717979/2019/3/20/585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg"
+                alt="product-img"
+              />
+
+              <div class="product-info my-3">
+                <h5 class="product-title">Mast and Harbour</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Sustainable Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">HERE&NOW</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">Roadster</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Pure Cotton Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2050688/2018/2/5/11517823120338-HIGHLANDER-Men-White-Slim-Fit-Solid-Casual-Shirt-5911517823120124-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">HIGHLANDER</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1729391/2019/8/28/a9d4a7aa-af7e-4a37-a9d4-a94dc8c057e81566992341974-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">Dennis Lingo</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+          </div>
+          <div class="products-side d-flex justify-content-evenly flex-wrap">
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8717979/2019/3/20/585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg"
+                alt="product-img"
+              />
+
+              <div class="product-info my-3">
+                <h5 class="product-title">Mast and Harbour</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Sustainable Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">HERE&NOW</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">Roadster</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Pure Cotton Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2050688/2018/2/5/11517823120338-HIGHLANDER-Men-White-Slim-Fit-Solid-Casual-Shirt-5911517823120124-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">HIGHLANDER</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1729391/2019/8/28/a9d4a7aa-af7e-4a37-a9d4-a94dc8c057e81566992341974-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">Dennis Lingo</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+          </div>
+          <div class="products-side d-flex justify-content-evenly flex-wrap">
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8717979/2019/3/20/585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg"
+                alt="product-img"
+              />
+
+              <div class="product-info my-3">
+                <h5 class="product-title">Mast and Harbour</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Sustainable Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">HERE&NOW</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">Roadster</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Pure Cotton Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2050688/2018/2/5/11517823120338-HIGHLANDER-Men-White-Slim-Fit-Solid-Casual-Shirt-5911517823120124-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">HIGHLANDER</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+            <div class="cards-product ">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1729391/2019/8/28/a9d4a7aa-af7e-4a37-a9d4-a94dc8c057e81566992341974-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-1.jpg"
+                alt="product-img"
+              />
+               <div class="product-info my-3">
+                <h5 class="product-title">Dennis Lingo</h5>
+                <h6 class="product-desc fw-normal fst-italic">
+                  Men Slim Fit Casual Shirt
+                </h6>
+                <h6 class="product-price">Rs. 500</h6>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- -----BOOTSTRAP------ -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- -----BOOTSTRAP ENDS------ -->
+  </body>
+</html>

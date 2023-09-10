@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+.cards-product {
+  max-width: 300px;
+  height: auto;
+}
+
+.cards-product img {
+  width: 210px;
+  height: 280px;
+  object-fit: contain;
+}
+.border-filter {
+  border-top: 1px solid #e9e9ed;
+  border-right: 1px solid #edebef;
+}
+.custom-control-label{
+    font-size: .87em;
+}
+.custom-control-label span{
+    font-size: .77em;
+}
+.product-title{
+  font-size: 16px ;
+  font-weight: 700;
+}
+.product-desc, .product-price{
+  font-size: 14px;
+}
