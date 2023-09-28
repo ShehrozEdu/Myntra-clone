@@ -1,0 +1,80 @@
+body{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+#bold{
+    font-weight: 700;
+}
+#description{
+    margin-top: 15px;
+    margin-left: 25px;
+  margin-bottom: 5px;
+}
+#images{
+    width: 52%;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#main-section{
+    display: flex;
+}
+.t-shirt{
+    width: 50%;
+   
+}
+#text-discription{
+    min-height: 820px;
+    width: 40%;
+    float: left;
+    padding: 15px;
+    
+
+}
+#about{
+    color: #9799a2;
+    font-size: 20px;
+}
+.fa-star{
+    color: greenyellow;
+    padding-bottom: 10px;
+}
+#text-discription2{
+    border-top: 1px solid #9799a2;
+    padding-top: 20px;
+}
+#text-discription4{
+    border-top: 1px solid #9799a2;
+    padding-top: 30px;
+}
+#addToButton{
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+}
+#Wishlist{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}
+#charSize{
+    display: flex;
+    gap: 20px;
+}
+.size{
+    border: 1px solid #9799a2;
+    padding: 10px;
+    border-radius: 50%;
+}
+#checkButton{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 3px;
+}
+#pincode{
+    width: 50%;
+    height: 40px;
+}
