@@ -264,6 +264,9 @@
     </div>
   
     </div>
+    <div class="container" id="imageContainer">
+        
+    </div>
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -292,7 +295,38 @@ pincode.addEventListener('click', function () {
   document.pincode.appendChild(newDiv); // Append the newDiv to the document body
 });
 
-     
+const url = "https://fakestoreapi.com/products";
+
+const imageContainer = document.getElementById('imageContainer');
+let page = 1;
+let loading = false;
+
+function fetchImage(){
+    if(loading) return;
+    loading = true;
+    fetch(url).then((response)=> 
+        response.json())
+        .then((data) => {
+       data.forEach((item) =>{
+           const img = document.createElement('img');
+           img.src = item.image;
+           img.classList.add('images');
+           imageContainer.appendChild(img);
+       });
+       page++;
+       loading =false;
+        })
+        .catch((error)=> {
+console.error("error", error);
+loading =false;
+        })
+}
+fetchImage();
+window.addEventListener('scroll', ()=> {
+    if(window.innerHeight + window.scrollY >= document.body.offsetHeight){
+        fetchImage();
+    }
+})
       
     </script>
   </body>

@@ -78,3 +78,21 @@ body{
     width: 50%;
     height: 40px;
 }
+.container{
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .images{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  .images:hover{
+    transform: scale(1.05);
+  }
+  
