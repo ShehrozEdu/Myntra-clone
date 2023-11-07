@@ -110,4 +110,16 @@ body{
     border-bottom: 1px solid #9799a2;
     padding: 10px;
   }
-  
+  .offer-details1{
+    border-bottom: 1px solid #9799a2;
+    padding: 20px;
+  }
+  .hrating{
+    border-top: 1px solid #9799a2;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .costomerimg{
+    width: 90px;
+    height: 100px;
+  }
