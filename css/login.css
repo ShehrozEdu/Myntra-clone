@@ -27,13 +27,16 @@ body {
     margin-bottom: 30px;
     padding-left: 10px;
  }
- .btn{
+ .btnlogin{
     background-color: #ff3e6c;
     width: 88%;
     height: 35px;
     margin-left: 20px;
     margin-bottom: 30px;
    
+ }
+ .getbtn{
+   color: #ff3e6c;
  }
  .reset{
     color: #ff3e6c;
